@@ -5,6 +5,22 @@
     background-color: #b73a2a;
     border-radius: 12%;
     height: 80px;
-    width: 100px;
+    width: 110px;
     padding: 8px;
+
+}
+
+.nav-link{
+    color: #353535;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    margin: 0 1.75rem;
+    
+}
+.nav-link:hover{
+    color: #353535;
+    text-decoration: underline;
+}
+.sale-decoration{
+    color: #B73A2A;
 }
