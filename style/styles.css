@@ -24,3 +24,12 @@
 .sale-decoration{
     color: #B73A2A;
 }
+
+/* Hero Image */
+
+.hero-image{
+    background-image: url(../assets);
+    width: 100%;
+    height: 70%;
+    object-fit: contain;
+}
