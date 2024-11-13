@@ -90,14 +90,14 @@ body {
   font-size: 60px;
 }
 
-.cooking-margin{
-  margin-top: 3px;
-}
-
 .cooking-grid{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 25px;
+  margin: 30px 5rem 0
+}
+
+.cooking-center{
+  margin: auto;
 }
 
 .cooking-img {
