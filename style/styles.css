@@ -89,3 +89,20 @@ body {
   font-style: normal;
   font-size: 60px;
 }
+
+.cooking-margin{
+  margin-top: 3px;
+}
+
+.cooking-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 25px;
+}
+
+.cooking-img {
+  width: 379px;
+  height: 402px;
+  object-fit: cover;
+  border-radius: 10px;
+}
