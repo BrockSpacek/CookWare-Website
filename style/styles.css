@@ -179,4 +179,45 @@ body {
   margin-left: 10px;
 }
 
+.best-card-margin{
+  margin-left: 62.5px;
+}
+
+/* Review */
+
+.reviews-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+  margin: 30px 5rem 0
+}
+.review-image{
+  background-image: url(../assets/Reviews1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 531px;
+  height: 664.75px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.review-image2{
+  background-image: url(../assets/Reviews2.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 531px;
+  height: 664.75px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+.review-image3{
+  background-image: url(../assets/Reviews3.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 531px;
+  height: 664.75px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+
 
