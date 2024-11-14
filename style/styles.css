@@ -147,3 +147,23 @@ body {
   display: flex;
   justify-content: center;
 }
+
+
+/* Best Sellers */ 
+
+.best-header {
+  margin-top: 9rem;
+  text-align: center;
+}
+
+.best-header h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+}
+
+.best-images{
+  height: 338px;
+  width: 449px;
+}
