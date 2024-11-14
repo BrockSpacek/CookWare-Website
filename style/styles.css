@@ -208,7 +208,7 @@ body {
 }
 
 .best-btn:hover {
-  background-color: #000000;
+  background-color: #1E2c20;
   color: #ffffff;
 }
 .best-images{
@@ -276,4 +276,12 @@ body {
 
 .footer-text{
   color: #ffffff;
+}
+
+.no-curve{
+  border-radius: 0px;
+}
+
+.border{
+  border: 1px solid white;
 }
