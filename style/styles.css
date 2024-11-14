@@ -166,4 +166,17 @@ body {
 .best-images{
   height: 338px;
   width: 449px;
+  border-radius: 10px;
 }
+
+.card-borders{
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.best-image-margin{
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+
