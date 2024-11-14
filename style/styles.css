@@ -151,6 +151,10 @@ body {
 
 /* Best Sellers */ 
 
+.card-dimension{
+  height: 757px;
+  width: 497px;
+}
 .best-header {
   margin-top: 9rem;
   text-align: center;
@@ -163,6 +167,40 @@ body {
   font-size: 60px;
 }
 
+.titles{
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 36px;
+}
+
+.best-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  height: 220px;
+  width: 449px;
+}
+
+.best-text2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  height: 88px;
+  width: 449px;
+}
+
+.best-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  padding: 7px 33px 7px;
+}
 .best-images{
   height: 338px;
   width: 449px;
@@ -216,6 +254,8 @@ body {
   border-radius: 10px;
   object-fit: contain;
 }
+
+
 
 
 /* Footer */
