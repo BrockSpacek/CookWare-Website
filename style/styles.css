@@ -201,6 +201,11 @@ body {
   font-size: 16px;
   padding: 7px 33px 7px;
 }
+
+.best-btn:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
 .best-images{
   height: 338px;
   width: 449px;
