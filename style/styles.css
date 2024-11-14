@@ -155,6 +155,11 @@ body {
   height: 757px;
   width: 497px;
 }
+
+.card-dimension2{
+  height: 625px;
+  width: 497px;
+}
 .best-header {
   margin-top: 9rem;
   text-align: center;
