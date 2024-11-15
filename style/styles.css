@@ -596,7 +596,19 @@ body {
   }
 
   .arrivals-container-image {
-    margin-left: 10px;
+    margin-left: 15px;
+  }
+
+  .titles-arr{
+    margin-left: 15px;
+  }
+
+  .arr-text{
+    margin-left: 15px;
+  }
+
+  .dots-move{
+    margin-left: 15px;
   }
 
   .reviews-grid {
@@ -607,5 +619,15 @@ body {
   .footer-container {
     margin-left: 0px;
     height: 170px;
+  }
+
+  .review-image{
+    margin-left: 6px;
+  }
+  .review-image2{
+    margin-left: 6px;
+  }
+  .review-image3{
+    margin-left: 6px;
   }
 }
