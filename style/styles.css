@@ -54,6 +54,7 @@ body {
   align-items: center;
   object-fit: contain;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero-square {
@@ -129,12 +130,6 @@ body {
 
 /* New Arrivals */
 
-.main-container{
-  width: 1647px;
-  height: 950px;
-  margin-left: 7%;
-}
-
 .arrivals-header {
   margin-top: 9rem;
   text-align: center;
@@ -183,6 +178,7 @@ body {
 .arrivals-center{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 
@@ -332,5 +328,19 @@ body {
 
 @media screen and (max-width: 850px){
 
+  .arrivals-container-image{
+    height: 600px;
+    width: 700px;
+  }
+  
+  .arrvals-card-margin{
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+  
+  .arrivals-card-margin2{
+    margin-right: 0px;
+    margin-top: 50px;
+  }
 }
   
