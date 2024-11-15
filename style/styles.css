@@ -201,7 +201,6 @@ body {
   margin-top: 30px;
 }
 
-
 .arrivals-center {
   display: flex;
   justify-content: space-evenly;
@@ -292,8 +291,10 @@ body {
 }
 
 .best-card-margin {
-  margin-left: 62.5px;
+ margin: 0 30px 0;
 }
+
+
 
 /* Review */
 
@@ -435,7 +436,7 @@ body {
     width: 700px;
   }
 
-  .main-container{
+  .main-container {
     margin-top: 75px;
   }
   .arrvals-card-margin {
@@ -450,13 +451,15 @@ body {
 
   .best-card-margin {
     margin-left: 0px;
+    margin-right: 0px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .best-card-margin {
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 0px;
+    margin-right: 0px;
   }
 
   .cooking-grid {
@@ -558,7 +561,6 @@ body {
   }
 
   .best-text {
-  
     height: 200px;
     width: 380px;
     font-size: 17px;
@@ -586,9 +588,6 @@ body {
     margin-left: 0px;
   }
 
-  .best-card-margin {
-    margin-left: 0px;
-  }
 
   .arrivals-center {
     width: 398px;
@@ -598,15 +597,15 @@ body {
     margin-left: 15px;
   }
 
-  .titles-arr{
+  .titles-arr {
     margin-left: 15px;
   }
 
-  .arr-text{
+  .arr-text {
     margin-left: 15px;
   }
 
-  .dots-move{
+  .dots-move {
     margin-left: 15px;
   }
 
@@ -620,35 +619,28 @@ body {
     height: 170px;
   }
 
-  .review-image{
+  .review-image {
     margin-top: 20px;
     margin-left: 6px;
   }
-  .review-image2{
+  .review-image2 {
     margin-top: 55px;
     margin-left: 6px;
   }
-  .review-image3{
+  .review-image3 {
     margin-top: 55px;
     margin-left: 6px;
   }
 
   .cooking-header h1 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
     font-size: 30px;
   }
 
   .arrivals-header h1 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
     font-size: 30px;
   }
 
   .best-header h1 {
-  
     font-size: 30px;
   }
 }
