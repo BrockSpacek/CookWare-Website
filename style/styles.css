@@ -369,6 +369,8 @@ body {
 
 .review-text {
   text-align: start;
+  color: solid #ffffff;
+  font-weight: 800px;
 }
 
 /* Footer */
@@ -440,14 +442,17 @@ body {
     width: 700px;
   }
 
+  .main-container{
+    margin-top: 75px;
+  }
   .arrvals-card-margin {
     margin-left: 0px;
-    margin-top: 50px;
+    margin-top: 100px;
   }
 
   .arrivals-card-margin2 {
     margin-right: 0px;
-    margin-top: 50px;
+    margin-top: 75px;
   }
 
   .best-card-margin {
