@@ -621,7 +621,7 @@ body {
   }
 
   .review-image{
-    margin-top: 55px;
+    margin-top: 20px;
     margin-left: 6px;
   }
   .review-image2{
@@ -629,7 +629,26 @@ body {
     margin-left: 6px;
   }
   .review-image3{
-    margin-top: 60px;
+    margin-top: 55px;
     margin-left: 6px;
+  }
+
+  .cooking-header h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+  }
+
+  .arrivals-header h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+  }
+
+  .best-header h1 {
+  
+    font-size: 30px;
   }
 }
