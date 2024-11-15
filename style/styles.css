@@ -519,21 +519,21 @@ body {
   .review-image {
     width: 411px;
     height: 564px;
-    margin-top: 35px;
+    margin-top: 45px;
     margin-left: 0px;
   }
 
   .review-image2 {
     width: 411px;
     height: 564px;
-    margin-top: 35px;
+    margin-top: 45px;
     margin-left: 0px;
   }
 
   .review-image3 {
     width: 411px;
     height: 564px;
-    margin-top: 35px;
+    margin-top: 45px;
     margin-left: 0px;
   }
 }
@@ -621,12 +621,15 @@ body {
   }
 
   .review-image{
+    margin-top: 55px;
     margin-left: 6px;
   }
   .review-image2{
+    margin-top: 55px;
     margin-left: 6px;
   }
   .review-image3{
+    margin-top: 60px;
     margin-left: 6px;
   }
 }
