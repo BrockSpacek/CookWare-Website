@@ -379,6 +379,11 @@ body {
 
 
 /* Footer */
+
+.main-footer{
+  width: 100%;
+  height: auto;
+}
 .footer-color{
   background-color: #1E2c20;
   padding-bottom: 25px;
@@ -469,6 +474,21 @@ body {
   .review-image3{
     margin-top: 35px;
     margin-left: 37px;
+  }
+
+  .footer-tablet{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .footer-change{
+  margin-top: 15px;
+  }
+
+  .footer-container{
+    margin-left: 100px;
+    height: 170px;
+  
   }
 }
   
