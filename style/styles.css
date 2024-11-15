@@ -371,5 +371,22 @@ body {
     margin-right: 0px;
     margin-top: 50px;
   }
+
+  .best-card-margin{
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .best-card-margin{
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  .cooking-center{
+    margin-top: 35px;
+  }
+  .cooking-grid h2{
+    text-align: center;
+  }
 }
   
