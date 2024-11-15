@@ -152,6 +152,35 @@ body {
 
 }
 
+/* Credit to Mike for helping */
+
+.dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: 3px solid #EDEDED;
+  display: inline-block;
+}
+.dot-1 {
+  background-color: #EA2D2C;
+  outline: none;
+  box-shadow: 0 0 1pt 2pt black;
+}
+
+.dot-2{
+  background-color: #FB5108;
+}
+
+.dot-3{
+  background-color: #D29D12;
+}
+
+.dot-4{
+  background-color: #353535;
+}
+
+/* End credit*/
+
 .arr-text{
   font-family: "Roboto", sans-serif;
   font-weight: 400;
