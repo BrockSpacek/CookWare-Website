@@ -391,6 +391,14 @@ body {
   margin-left: 400px;
 }
 
+.footer-change{
+  color: #ffffff;
+}
+
+.footer-change:hover {
+  color: rgb(7, 110, 7);
+}
+
 .footer-text{
   color: #ffffff;
 }
