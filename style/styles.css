@@ -211,10 +211,16 @@ body {
   background-color: #1E2c20;
   color: #ffffff;
 }
-.best-images{
+.best-images-card{
   height: 338px;
   width: 449px;
-  border-radius: 10px;
+
+}
+
+.best-images{
+  width: 100%;
+  height: auto;
+  border-radius: 10px
 }
 
 .card-borders{
