@@ -388,5 +388,21 @@ body {
   .cooking-grid h2{
     text-align: center;
   }
+
+
+  .review-image{
+    margin-top: 35px;
+    margin-left: 42px;
+  }
+
+  .review-image2{
+    margin-top: 35px;
+    margin-left: 42px;
+  }
+
+  .review-image3{
+    margin-top: 35px;
+    margin-left: 42px;
+  }
 }
   
