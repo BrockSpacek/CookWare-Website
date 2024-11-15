@@ -79,7 +79,7 @@ body {
   padding: 30px 0 5px;
 }
 
-/* Start Cooking */   /* Mike found a cool site for zoom-images so credit to him for the hookup */
+/* Start Cooking */ /* Mike found a cool site for zoom-images so credit to him for the hookup */
 
 .cooking-header {
   margin-top: 9rem;
@@ -93,13 +93,13 @@ body {
   font-size: 60px;
 }
 
-.cooking-grid{
+.cooking-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  margin: 30px 5rem 0
+  margin: 30px 5rem 0;
 }
 
-.cooking-center{
+.cooking-center {
   margin: auto;
 }
 
@@ -110,21 +110,21 @@ body {
   border-radius: 10px;
 }
 
-.cooking-grid h2{
+.cooking-grid h2 {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-style: normal;
   margin-top: 20px;
 }
 
-.img-hover-zoom{
+.img-hover-zoom {
   border-radius: 5%;
   overflow: hidden;
 }
-.img-hover-zoom img{
-  transition: transform .15s ease;
+.img-hover-zoom img {
+  transition: transform 0.15s ease;
 }
-.img-hover-zoom:hover img{
+.img-hover-zoom:hover img {
   transform: scale(1.2);
 }
 
@@ -142,20 +142,19 @@ body {
   font-size: 60px;
 }
 
-.arrivals-container-image{
+.arrivals-container-image {
   height: 632px;
   width: 805px;
   background-color: #000000;
 }
 
-.arrivals-container-image:hover img{
+.arrivals-container-image:hover img {
   opacity: 0.7;
 }
 
-.arrivals-image{
+.arrivals-image {
   height: 100%;
   width: 100%;
-
 }
 
 /* Credit to Mike for helping */
@@ -164,37 +163,37 @@ body {
   height: 25px;
   width: 25px;
   border-radius: 50%;
-  border: 3px solid #EDEDED;
+  border: 3px solid #ededed;
   display: inline-block;
 }
 .dot-1 {
-  background-color: #EA2D2C;
+  background-color: #ea2d2c;
   outline: none;
   box-shadow: 0 0 1pt 2pt black;
 }
 
-.dot-2{
-  background-color: #FB5108;
+.dot-2 {
+  background-color: #fb5108;
 }
 
-.dot-3{
-  background-color: #D29D12;
+.dot-3 {
+  background-color: #d29d12;
 }
 
-.dot-4{
+.dot-4 {
   background-color: #353535;
 }
 
 /* End credit*/
 
-.arr-text{
+.arr-text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
 }
 
-.titles-arr{
+.titles-arr {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -202,29 +201,28 @@ body {
   margin-top: 30px;
 }
 
-.arrivals-card-margin{
+.arrivals-card-margin {
   margin-left: 0px;
 }
 
-.arrivals-card-margin2{
+.arrivals-card-margin2 {
   margin-right: 30px;
 }
 
-.arrivals-center{
+.arrivals-center {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
+/* Best Sellers */
 
-/* Best Sellers */ 
-
-.card-dimension{
+.card-dimension {
   height: 757px;
   width: 497px;
 }
 
-.card-dimension2{
+.card-dimension2 {
   height: 625px;
   width: 497px;
 }
@@ -240,7 +238,7 @@ body {
   font-size: 60px;
 }
 
-.titles{
+.titles {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -276,43 +274,42 @@ body {
 }
 
 .best-btn:hover {
-  background-color: #1E2c20;
+  background-color: #1e2c20;
   color: #ffffff;
 }
-.best-images-card{
+.best-images-card {
   height: 338px;
   width: 449px;
-
 }
 
-.best-images{
+.best-images {
   height: 338px;
   width: 449px;
-  border-radius: 10px
+  border-radius: 10px;
 }
 
-.card-borders{
+.card-borders {
   border: 1px solid black;
   border-radius: 10px;
 }
 
-.best-image-margin{
+.best-image-margin {
   margin-top: 15px;
   margin-left: 10px;
 }
 
-.best-card-margin{
+.best-card-margin {
   margin-left: 62.5px;
 }
 
 /* Review */
 
-.reviews-grid{
+.reviews-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
-  margin: 30px 5rem 0
+  margin: 30px 5rem 0;
 }
-.review-image{
+.review-image {
   background-image: url(../assets/Reviews1.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -325,7 +322,7 @@ body {
   align-items: center;
 }
 
-.review-image2{
+.review-image2 {
   background-image: url(../assets/Reviews2.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -337,7 +334,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.review-image3{
+.review-image3 {
   background-image: url(../assets/Reviews3.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -350,7 +347,7 @@ body {
   align-items: center;
 }
 
-.review{
+.review {
   background-color: #000000;
   color: #ffffff;
   opacity: 70%;
@@ -358,10 +355,9 @@ body {
   padding: 55px;
   width: 75%;
   border-radius: 6px;
-
 }
 
-.review2{
+.review2 {
   background-color: #000000;
   color: #ffffff;
   opacity: 70%;
@@ -369,34 +365,31 @@ body {
   padding: 43px 55px 43px;
   width: 75%;
   border-radius: 6px;
-
 }
 
-
-.review-text{
+.review-text {
   text-align: start;
 }
 
-
 /* Footer */
 
-.main-footer{
+.main-footer {
   width: 100%;
   height: auto;
 }
-.footer-color{
-  background-color: #1E2c20;
+.footer-color {
+  background-color: #1e2c20;
   padding-bottom: 25px;
   margin-top: 100px;
 }
 
-.footer-container{
+.footer-container {
   width: 415px;
   height: 115px;
   margin-left: 400px;
 }
 
-.footer-change{
+.footer-change {
   color: #ffffff;
 }
 
@@ -404,218 +397,215 @@ body {
   color: rgb(7, 110, 7);
 }
 
-.footer-text{
+.footer-text {
   color: #ffffff;
 }
 
-.no-curve{
+.no-curve {
   border-radius: 0px;
 }
 
-.border{
+.border {
   border: 1px solid white;
 }
 
-.icons{
+.icons {
   margin-top: 20px;
-  
 }
 
-.social-icons{
+.social-icons {
   padding: 0 27.5px 0 0;
 }
 
-
-@media screen and (max-width: 960px){
-  .cooking-grid{
+@media screen and (max-width: 960px) {
+  .cooking-grid {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    margin: 30px 3rem 0
+    margin: 30px 3rem 0;
   }
 
-  .cooking-img{
+  .cooking-img {
     width: 290px;
     height: 270px;
   }
 
-  .cooking-center{
-      width: 290px;
-      height: 350px;
+  .cooking-center {
+    width: 290px;
+    height: 350px;
   }
 }
 
-@media screen and (max-width: 850px){
-
-  .arrivals-container-image{
+@media screen and (max-width: 850px) {
+  .arrivals-container-image {
     height: 600px;
     width: 700px;
   }
-  
-  .arrvals-card-margin{
+
+  .arrvals-card-margin {
     margin-left: 0px;
     margin-top: 50px;
   }
-  
-  .arrivals-card-margin2{
+
+  .arrivals-card-margin2 {
     margin-right: 0px;
     margin-top: 50px;
   }
 
-  .best-card-margin{
+  .best-card-margin {
     margin-left: 0px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .best-card-margin{
+  .best-card-margin {
     margin-top: 30px;
     margin-left: 0px;
   }
 
-  .cooking-grid{
+  .cooking-grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    margin: 30px 3rem 0
+    margin: 30px 3rem 0;
   }
 
-
-  .cooking-center{
+  .cooking-center {
     margin-top: 35px;
   }
 
-
-
-  .review-image{
+  .review-image {
     margin-top: 35px;
     margin-left: 37px;
   }
 
-  .review-image2{
+  .review-image2 {
     margin-top: 35px;
     margin-left: 37px;
   }
 
-  .review-image3{
+  .review-image3 {
     margin-top: 35px;
     margin-left: 37px;
   }
 
-  .footer-tablet{
+  .footer-tablet {
     display: flex;
     justify-content: space-evenly;
   }
 
-  .footer-change{
-  margin-top: 15px;
+  .footer-change {
+    margin-top: 15px;
   }
 
-  .footer-container{
+  .footer-container {
     margin-left: 100px;
     height: 170px;
-  
   }
 }
 
-@media screen and (max-width: 535px){
-
-  .cooking-grid{
+@media screen and (max-width: 535px) {
+  .cooking-grid {
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    margin: 30px 0 0
+    margin: 30px 0 0;
   }
   .cooking-img {
     width: 174px;
     height: 227px;
   }
 
-  .cooking-center{
+  .cooking-center {
     width: 174px;
     height: 350px;
-}
-  .arrivals-container-image{
+  }
+  .arrivals-container-image {
     height: 429px;
     width: 398px;
   }
-  .review-image{
+  .review-image {
     width: 411px;
     height: 564px;
     margin-top: 35px;
     margin-left: 0px;
   }
 
-  .review-image2{
+  .review-image2 {
     width: 411px;
     height: 564px;
     margin-top: 35px;
     margin-left: 0px;
   }
 
-  .review-image3{
+  .review-image3 {
     width: 411px;
     height: 564px;
     margin-top: 35px;
     margin-left: 0px;
   }
-
 }
 
-@media screen and(max-width: 425px) {
-  .cooking-grid{
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
- 
-}
-.cooking-img {
-  width: 174px;
-  height: 227px;
-}
+@media screen and (max-width: 425px) {
+  .cooking-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+  .cooking-img {
+    width: 174px;
+    height: 227px;
+  }
 
+  .card-dimension {
+    height: 680px;
+    width: 398px;
+  }
 
-.card-dimension{
-  height: 680px;
-  width: 398px;
-}
+  .card-dimension2 {
+    height: 640px;
+    width: 398px;
+  }
 
-.card-dimension2{
-  height: 640px;
-  width: 398px;
-}
+  .best-text {
+  
+    height: 200px;
+    width: 398px;
+    font-size: 16px;
+  }
 
-.best-text {
+  .best-text2 {
+    height: 160px;
+    width: 380px;
+  }
 
-  height: 220px;
-  width: 398px;
-}
+  .best-image-card {
+    height: 310px;
+    width: 395px;
+  }
 
-.best-text2 {
+  .best-images {
+    height: 310px;
+    width: 370px;
+    border-radius: 10px;
+  }
 
-  height: 88px;
-  width: 398px;
-}
+  .best-image-margin {
+    margin-top: 15px;
+    margin-left: 0px;
+  }
 
-.best-image-card{
-  height: 310px;
-  width: 395px;
+  .best-card-margin {
+    margin-left: 0px;
+  }
 
-}
+  .arrivals-center {
+    width: 398px;
+  }
 
-.best-images{
-  height: 310px;
-  width: 395px;
-  border-radius: 10px
-}
+  .arrivals-container-image {
+    margin-left: 10px;
+  }
 
-.best-image-margin{
-  margin-top: 15px;
-  margin-left: 0px;
-}
-
-.best-card-margin{
-  margin-left: 0px;
-}
-
-.arrivals-center{
-  width: 398px;
- 
-}
-
-.arrivals-container-image{
-  margin-left: 10px;
-}
+  .reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    margin: 30px 0rem 0;
+  }
+  .footer-container {
+    margin-left: 0px;
+    height: 170px;
+  }
 }
