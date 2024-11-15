@@ -52,6 +52,8 @@ body {
   display: flex;
   justify-content: start;
   align-items: center;
+  object-fit: contain;
+  background-repeat: no-repeat;
 }
 
 .hero-square {
@@ -127,6 +129,13 @@ body {
 
 /* New Arrivals */
 
+.main-container{
+  width: 1647px;
+  height: 950px;
+  flex-wrap: wrap;
+  margin-left: 11.8%;
+}
+
 .arrivals-header {
   margin-top: 9rem;
   text-align: center;
@@ -139,6 +148,10 @@ body {
   font-size: 60px;
 }
 
+.arrivals-container-image{
+  height: 632px;
+  width: 805px;
+}
 .arrivals-image{
   height: 632px;
   width: 805px;
@@ -228,8 +241,8 @@ body {
 }
 
 .best-images{
-  width: 100%;
-  height: auto;
+  height: 338px;
+  width: 449px;
   border-radius: 10px
 }
 
@@ -301,3 +314,9 @@ body {
 .border{
   border: 1px solid white;
 }
+
+
+@media screen (max-width: 850px){
+
+}
+  
